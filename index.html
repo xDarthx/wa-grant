@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jacob's New Page</title>
+    <script>
+        function helloWorld()
+        {
+            document.getElementById("hello").innerHTML = "Hello World!";
+        }
+    </script>
+</head>
+<body style="text-align: center;">
+    <header style="background-color: aquamarine; padding: 2.5%; border-radius: 25%; border-color: aqua; border-width: 3p; border-style: solid;">
+        <a style="margin-right: 10%;" href="https://www.w3schools.com/html/default.asp" target="_blank" title="W3School">W3School</a>
+        <a href="https://ocuonline.okcu.edu/d2l/home" target="_blank" title="D2L">D2L</a>
+    </header>
+    <article>
+        <h3 style="color: red;">About Me</h3>
+        <hr>
+            <p>
+                Hello, my name is <b>Jacob Grant</b> and I am a sophmore this year.
+                I have been coding for about <b>7 years</b> now and am certified 
+                in HTML & CSS, javascript, and SQL. I love programming and am
+                really hoping to make it my full time career. 
+            </p>
+        
+        <h4 style="color: red; margin-top: 10%;">Contact Information</h3>
+        <hr>
+            <h5 style="font-style: italic; color: blue; text-decoration-line: underline;">jacob.grant@my.okcu.edu</h5>
+        <h4 style="color: red; margin-top: 10%;">Code Examples</h3>
+        <hr>
+        <p>
+            To print change text in a element using javascript, use the following code: 
+            <code>document.getElementById("hello").innerHTML = "Hello World!";</code>
+            <br><br>
+            <button onclick="helloWorld()">CLICK ME</button>
+        </p>
+        <h2 id="hello"></h2>
+    </article>
+</body>
+</html>
